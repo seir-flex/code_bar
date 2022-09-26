@@ -2,7 +2,7 @@
 
 ## Part I: Members, Students and Instructors
 
-You're starting your own web development school called Codebar! Everybody at Codebar -- whether they are attending workshops or teaching them -- is a `Member`.
+You're starting your own web-dev school called Codebar! Everybody at Codebar -- whether they are attending workshops or teaching them -- is a `Member`.
 * Each member has a `full_name`.
 * Each member should be able to `introduce` themselves (e.g., "Hi, my name is Kevin!").
 
@@ -29,7 +29,7 @@ Create another method `print_details` that outputs the details of the workshop.
 Make your code work for the following calls and print out the response you can see in the comments below...
 
 ```py
-workshop = Workshop("12/03/2014", "Shutl")
+workshop = Workshop("12/03/2021", "Shutl")
 
 jane = Student("Jane Doe", "I am trying to learn programming and need some help")
 lena = Student("Lena Smith", "I am really excited about learning to program!")
@@ -45,7 +45,7 @@ workshop.add_participant(vicky)
 workshop.add_participant(nicole)
 workshop.print_details()
 # =>
-# Workshop - 12/03/2014 - Shutl
+# Workshop - 12/03/2021 - Shutl
 #
 # Students
 # 1. Jane Doe - I am trying to learn programming and need some help
